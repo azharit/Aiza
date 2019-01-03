@@ -1,0 +1,4 @@
+c:\users\m1030325\documents\visual studio 2015\Projects\AFZA.PO.REST\AFZA.PO.REST\bin\Debug\AFZA.PO.REST.dll
+c:\users\m1030325\documents\visual studio 2015\Projects\AFZA.PO.REST\AFZA.PO.REST\bin\Debug\AFZA.PO.REST.pdb
+c:\users\m1030325\documents\visual studio 2015\Projects\AFZA.PO.REST\AFZA.PO.REST\obj\Debug\AFZA.PO.REST.dll
+c:\users\m1030325\documents\visual studio 2015\Projects\AFZA.PO.REST\AFZA.PO.REST\obj\Debug\AFZA.PO.REST.pdb

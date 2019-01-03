@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <Server>A2ML06339\AZHAR</Server>
+    <ConfigurationDatabase>BizTalkMgmtDb</ConfigurationDatabase>
+    <ApplicationName>AFZA.PO.REST</ApplicationName>
+    <Redeploy>True</Redeploy>
+    <Register>True</Register>
+    <RestartHostInstances>False</RestartHostInstances>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectView>ShowAllFiles</ProjectView>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{EF7E3281-CD33-11D4-8326-00C04FA0CE8D}">
+        <Files>
+		<File Path="PO.xsd">
+			<ValidateTestMapInput>True</ValidateTestMapInput>
+			<ValidateTestMapOutput>True</ValidateTestMapOutput>
+			<TestMapInputInstanceFilename></TestMapInputInstanceFilename>
+			<TestMapOutputInstanceFilename></TestMapOutputInstanceFilename>
+			<TestMapSourceType>0</TestMapSourceType>
+			<TestMapTargetType>0</TestMapTargetType>
+			<EditorOutputInstanceFilename></EditorOutputInstanceFilename>
+			<EditorInputInstanceFilename>C:\Users\m1030325\Desktop\New folder\out_{F0466D68-8E4F-4660-A9A7-D7E20BCF75DA}.xml</EditorInputInstanceFilename>
+			<GenerateInstanceOutputType>0</GenerateInstanceOutputType>
+			<ValidateInstanceInputType>0</ValidateInstanceInputType>
+			<PropertySchemaFileName>PropertySchema.xsd</PropertySchemaFileName>
+			<AutoRefreshSchema>0</AutoRefreshSchema>
+		</File>
+		<File Path="POResponse.xsd">
+			<ValidateTestMapInput>True</ValidateTestMapInput>
+			<ValidateTestMapOutput>True</ValidateTestMapOutput>
+			<TestMapInputInstanceFilename></TestMapInputInstanceFilename>
+			<TestMapOutputInstanceFilename></TestMapOutputInstanceFilename>
+			<TestMapSourceType>0</TestMapSourceType>
+			<TestMapTargetType>0</TestMapTargetType>
+			<EditorOutputInstanceFilename></EditorOutputInstanceFilename>
+			<EditorInputInstanceFilename></EditorInputInstanceFilename>
+			<GenerateInstanceOutputType>0</GenerateInstanceOutputType>
+			<ValidateInstanceInputType>0</ValidateInstanceInputType>
+			<PropertySchemaFileName>PropertySchema.xsd</PropertySchemaFileName>
+			<AutoRefreshSchema>0</AutoRefreshSchema>
+		</File>
+		<File Path="PurchaseOrder.xsd">
+			<ValidateTestMapInput>True</ValidateTestMapInput>
+			<ValidateTestMapOutput>True</ValidateTestMapOutput>
+			<TestMapInputInstanceFilename></TestMapInputInstanceFilename>
+			<TestMapOutputInstanceFilename></TestMapOutputInstanceFilename>
+			<TestMapSourceType>0</TestMapSourceType>
+			<TestMapTargetType>0</TestMapTargetType>
+			<EditorOutputInstanceFilename></EditorOutputInstanceFilename>
+			<EditorInputInstanceFilename></EditorInputInstanceFilename>
+			<GenerateInstanceOutputType>0</GenerateInstanceOutputType>
+			<ValidateInstanceInputType>0</ValidateInstanceInputType>
+			<PropertySchemaFileName>PropertySchema.xsd</PropertySchemaFileName>
+			<AutoRefreshSchema>0</AutoRefreshSchema>
+		</File>
+		<File Path="Transform.btm">
+			<ValidateTestMapInput>False</ValidateTestMapInput>
+			<ValidateTestMapOutput>True</ValidateTestMapOutput>
+			<TestMapInputInstanceFilename>C:\Users\m1030325\Desktop\New folder\out_{17BA7354-8486-455A-B554-AB0393C625FF}.xml</TestMapInputInstanceFilename>
+			<TestMapOutputInstanceFilename></TestMapOutputInstanceFilename>
+			<TestMapSourceType>1</TestMapSourceType>
+			<TestMapTargetType>0</TestMapTargetType>
+			<EditorOutputInstanceFilename></EditorOutputInstanceFilename>
+			<EditorInputInstanceFilename></EditorInputInstanceFilename>
+			<GenerateInstanceOutputType>0</GenerateInstanceOutputType>
+			<ValidateInstanceInputType>0</ValidateInstanceInputType>
+			<PropertySchemaFileName>PropertySchema.xsd</PropertySchemaFileName>
+			<AutoRefreshSchema>0</AutoRefreshSchema>
+		</File>
+	</Files>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
