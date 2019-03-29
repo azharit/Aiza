@@ -48,7 +48,7 @@ namespace AFZA.PO.REST
 "arty\" minOccurs=\"0\" maxOccurs=\"-1\" execMethod=\"All\" stageId=\"9d0e410e-4cce-4536-83fa-4a5040674ad6\" /"+
 ">      <Components />    </Stage>  </Stages></Document>";
         
-        private const string _versionDependentGuid = "27347cc6-a7ce-447a-8f42-1c23e131de56";
+        private const string _versionDependentGuid = "16083868-53fd-4bb1-8b3d-87dcde5721a8";
         
         public rcvJson()
         {

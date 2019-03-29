@@ -28,7 +28,7 @@ namespace AFZA.PO.REST
 "chedIsManaged>true</CachedIsManaged>        </Component>      </Components>    </Stage>  </Stages></"+
 "Document>";
         
-        private const string _versionDependentGuid = "eda61d5d-9d3f-432c-87c9-c535a08d0afe";
+        private const string _versionDependentGuid = "5f531e11-8374-4b1e-9fdb-f35f669d03ff";
         
         public send_Json()
         {

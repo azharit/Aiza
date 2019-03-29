@@ -53,7 +53,7 @@ namespace AFZA.PO.REST
         }
         #endregion // port reflection support
     }
-    //#line 136 "C:\Users\m1030325\documents\visual studio 2015\Projects\AFZA.PO.REST\AFZA.PO.REST\ProcessPO.odx"
+    //#line 136 "C:\Users\aiza\Source\Repos\Aiza\AFZA.PO.REST\AFZA.PO.REST\ProcessPO.odx"
     [Microsoft.XLANGs.BaseTypes.StaticSubscriptionAttribute(
         0, "rcvPO", "Operation_1", -1, -1, true
     )]
@@ -417,15 +417,15 @@ namespace AFZA.PO.REST
                 ProcessPO __svc__ = (ProcessPO)_service;
                 __ProcessPO_1 __ctx1__ = (__ProcessPO_1)(__svc__._stateMgrs[1]);
 
-                if (__ctx1__ != null && __ctx1__.__Po != null)
-                {
-                    __ctx1__.UnrefMessage(__ctx1__.__Po);
-                    __ctx1__.__Po = null;
-                }
                 if (__ctx1__ != null && __ctx1__.__PORersp != null)
                 {
                     __ctx1__.UnrefMessage(__ctx1__.__PORersp);
                     __ctx1__.__PORersp = null;
+                }
+                if (__ctx1__ != null && __ctx1__.__Po != null)
+                {
+                    __ctx1__.UnrefMessage(__ctx1__.__Po);
+                    __ctx1__.__Po = null;
                 }
                 base.Finally();
             }
